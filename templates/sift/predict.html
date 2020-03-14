@@ -1,0 +1,10 @@
+{% extends 'sift/layout.html' %}
+{% block content %}
+    <!-- <h1>Crop image path is {{ crop }}</h1>
+    <h1>Actual image path is {{ image }}</h1>
+    <h1>{{ ls }}</h1> -->
+
+    {% for r in res %}
+        <p>{{r}}</p>
+    {% endfor %}
+{% endblock content %}
