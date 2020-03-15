@@ -28,6 +28,7 @@ def home(request):
         s = '/media/parth/DATA_VOL/PROJECTS/imdjango'+image_url
         newobj = siift(image_url,crop_url)
         res = newobj.predict()
+        print(res)
         if len(res)!=1:
             img = Image.open(s, 'r')
             img_w, img_h = img.size

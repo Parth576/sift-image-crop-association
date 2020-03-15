@@ -10,7 +10,6 @@ class siift:
     def predict(self):
         try:
             self.img_path='/media/parth/DATA_VOL/PROJECTS/imdjango'+self.img_path
-            print(self.img_path)
             self.template_path='/media/parth/DATA_VOL/PROJECTS/imdjango'+self.template_path
             img = cv2.imread(self.img_path)
             template = cv2.imread(self.template_path)
