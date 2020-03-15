@@ -3,10 +3,15 @@
 <div class="content-section">
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        <input type="file" name="image">
-        <input type="file" name="crop">
+        <p><b>Upload Images </b></p>
 
-        <button type="submit">Upload</button>
+        <input type="file" name="image" class="btn btn-secondary">
+        <br>
+        <br>
+        <input type="file" name="crop" class="btn btn-secondary">
+        <br>
+        <br>
+        <button type="submit" >Match</button>
     </form>
     
     

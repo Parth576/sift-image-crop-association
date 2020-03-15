@@ -9,6 +9,108 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+            body{
+        /* background: #43cea2;  
+        background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  
+        background: linear-gradient(to right, #185a9d, #43cea2);  */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        }
+        h1{
+        margin: 0;
+        height: 200px;
+        padding-top: 100px;
+        }
+        img{
+        size: 100%;
+        width: 100%;
+        margin-top: 30px;
+        height: 600px;
+        }
+        #container{
+        margin: auto;
+        width: 50%;
+        padding: 175px;
+        /* width: 60%;
+        margin: 200px auto; */
+        vertical-align: middle;
+        text-align: center;
+        /* border: 2px solid black; */
+        }
+        div{
+        text-align: left;
+        margin-bottom: 50px;
+        }
+        ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+        li{
+        float: left;
+        }
+        li a{
+        display: block;
+        padding: 8px;
+        margin: 0;
+        color: white;
+        padding: 20px 20px;
+        text-decoration: none;
+        transition: all 01s;
+        }
+        li a:hover{
+        background-color: black;
+        }
+        h3{
+        color: darkcyan;
+        }
+
+        #banner {
+        background-image: linear-gradient(120deg, #91C4FF 0%, #F0F7FF 87%);
+        position: relative;
+        width: 100%;
+        height: 950px;
+        }
+
+        #cloud-scroll {
+        background: url(http://9a2e1a2047765d2a004e-e6d2db425d8d4f2619e5cee56a48bcef.r55.cf2.rackcdn.com/clouds.png) repeat-x;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        position: absolute;
+        -webkit-animation: 900000s backgroundScroll infinite linear;
+        -moz-animation: 900000s backgroundScroll infinite linear;
+        -o-animation: 900000s backgroundScroll infinite linear;
+        -ms-animation: 900000s backgroundScroll infinite linear;
+        animation: 900000s backgroundScroll infinite linear;
+        }
+
+        @-webkit-keyframes backgroundScroll {
+        from {
+        background-position: 0 0;
+        }
+        to {
+        background-position: -99999999px 0;
+        }
+        }
+
+        @keyframes backgroundScroll {
+        from {
+        background-position: 0 0;
+        }
+        to {
+        background-position: -99999999px 0;
+        }
+        }
+
+    </style>
     <title>Image Associator</title>
 
 
@@ -19,7 +121,7 @@
 
             <ul>
                 <li><a href="#">Image Associator</a></li>
-                <li style="float: right"><a href="/home"> Home </a></li>
+                <li style="float: right"><a href="{% url "home" %}"> Home </a></li>
                 <li style="float: right"><a href="/about">About</a></li>
             </ul>
         
