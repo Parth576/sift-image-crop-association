@@ -6,6 +6,10 @@ Project to find association between crop and original image using SIFT (Scale-in
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+All the ML code (independent of the website) is in the ML folder. It also contains the JSON file that contains all the crop associations for given dataset.
+
+You can find the dataset here - https://drive.google.com/open?id=10dssv1syyIb0YO2WqsLs3IV1WpvRYsIm
+
 ### Prerequisites and Installing
 
 A python 3.6 environment is recommended to run this project. Requirements can be installed using the command
