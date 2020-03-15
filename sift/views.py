@@ -3,7 +3,6 @@ from django.http import HttpResponseRedirect,HttpResponse
 from .forms import imForm
 from .models import im
 from django.core.files.storage import FileSystemStorage
-# Create your views here.
 from .program import imports
 from .program import sift_feature_matching
 from .program.sift_feature_matching import siift
