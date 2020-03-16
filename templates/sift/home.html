@@ -3,11 +3,13 @@
 <div class="content-section">
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        <p><b>Upload Images </b></p>
-
+        <p><b><h3 style="color: #0b2e13">Upload Images</h3></b></p>
+        
+        <h6>Original Image</h6>
         <input type="file" name="image" class="btn btn-secondary">
         <br>
         <br>
+        <h6>Cropped Image</h6>
         <input type="file" name="crop" class="btn btn-secondary">
         <br>
         <br>
