@@ -27,8 +27,7 @@ python manage.py makemigrations sift
 ```
 python manage.py migrate 
 ```
-Request you to change the universal paths in views.py and sift-feature-matching.py to absolute paths to be used.
-Finally run the server and enter the localhost address that is returned
+Run the server and go to localhost:8000 in the browser. 
 
 ```
 python manage.py runserver
