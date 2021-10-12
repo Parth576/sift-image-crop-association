@@ -8,7 +8,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.0
 numpy==1.18.1
 opencv-python==3.4.2.17
-opencv-contrib-python==3.4.2.17
+opencv-contrib-python==4.2.0.32
 Pillow==7.0.0
 pyparsing==2.4.6
 python-dateutil==2.8.1
